@@ -1,0 +1,125 @@
+* {
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+body {
+    background-image: url(./images/pattern-background-desktop.svg),
+    linear-gradient(to right, hsl(225, 100%, 94%)
+    , hsl(225, 100%, 94%));
+    background-position: top, bottom;
+    background-repeat: no-repeat;
+    min-height: 600vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 60px auto;
+    width: 40%;
+    background-color: white;
+    border-radius: 15px;
+    overflow: auto;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.Order {
+    font-family: Red Hat Display;
+    font-size: 20px;
+    font-weight: 900;
+    height: 40px;
+    margin-top: 30px;
+}
+.hero {
+    width: 100%;
+    margin: auto;
+}
+.main-words {
+    
+    font-size:20px;
+    font-weight: 500;
+    text-align: center;
+    margin: auto;
+}
+.plan {
+    background-color: whitesmoke; 
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 40px;
+    margin-right: 40px;  
+    border-radius: 15px; 
+
+}
+.musicicon {
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-items: auto;
+    margin-left: 20px;
+
+
+}
+.change {
+    float: right;;
+    margin: auto;
+    margin-right: 30px;
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.change:visited{
+    color: hsl(245, 75%, 52%);
+}
+.box {
+    margin-top: 20px;
+    margin-bottom: 10px;
+   float: left;
+   margin-left: 30px;
+}
+.annuel {
+    font-weight: 900;
+    font-size: 20px;
+    color: black;
+}
+.price {
+    font-size: 20px;
+    font-weight: 600;
+}
+button {
+   width: 80%;
+   margin: 30px auto;
+   font-size: 20px;
+   background-color: hsl(245, 75%, 52%);
+   border-radius: 15px;
+   color:hsl(225, 100%, 94%);
+   border: 1px solid hsl(245, 75%, 52%);
+   padding: 12px;
+   font-weight: 600;
+   text-align: center;
+   cursor: pointer;
+}
+.cancel {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-left: 10px;   
+}
+button:hover {
+    background-color: rgb(118, 108, 241);
+    border: 1px solid rgb(118, 108, 241);
+}
+.cursor:hover {
+    color: hsl(245, 75%, 52%);
+}
+.attribution {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin: -40px auto 20px auto;
+
+
+}
+.attribution a {
+    color:hsl(245, 75%, 52%);
+}
